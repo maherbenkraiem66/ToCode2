@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Livre>
+    <Auteurs>
+        <Auteur>
+            <Nom>nom</Nom>
+            <Prenom>Prenom</Prenom>
+
+        </Auteur>
+        <Auteur>
+            <Nom>nom</Nom>
+            <Prenom>prenom</Prenom>
+        </Auteur>
+    </Auteurs>
+    <Sections>
+        <Section>
+            <Titre> titre1</Titre>
+            <Chapitres>
+                <Chapitre>
+                    <Titre> titre1</Titre>
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag>
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+                <Chapitre>
+                    <titre>titre2</titre>
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag>
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+            </Chapitres>
+        </Section>
+        <Section>
+            <titre>titre2</titre>
+            <Chapitres>
+                <Chapitre>
+                    <Titre> titre1</Titre>
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag>
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+                <Chapitre>
+                    <titre>titre2</titre>
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag>
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+            </Chapitres>
+        </Section>
+    </Sections>
+
+</Livre>

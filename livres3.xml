@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Livre titre="titre livre" xmlns:f="http://www.masociete.com">
+    <Auteurs>
+        <Auteur /> nom="nom" prenom="prenom" />
+        <Auteur nom="nom" prenom="prenom" />
+    </Auteurs>
+    <Sections>
+        <Section titre="titre1">
+            <Chapitres>
+                <Chapitre titre="titre1">
+                    <Paragraphes>
+                        <Parag>
+                            &lt;element id="10" &gt;&gt;&lt;/element&gt;
+                        </Parag>
+                        <Parag>
+                            <![CDATA[<element id="10">></element>]]>
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+                <Chapitre titre="titre1">
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag>
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+            </Chapitres>
+        </Section>
+        <Section titre="titre1" >
+            <Chapitres>
+                <Chapitre titre="titre1">
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag>
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+                <Chapitre titre="titre1">
+                    <Paragraphes>
+                        <Parag>
+                            content1
+                        </Parag>
+                        <Parag xmlns="">
+                            Content2
+                        </Parag>
+                    </Paragraphes>
+                </Chapitre>
+            </Chapitres>
+        </Section>
+    </Sections>
+
+</Livre>
